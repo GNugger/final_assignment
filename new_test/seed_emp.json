@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "first_name": "Gn",
+        "last_name": "Drive",
+        "team_id": 1,
+        "leader_id": 1,
+        "title": "CEO",
+        "description": "Owner"
+    },
+    {
+        "id": 2,
+        "first_name": "Ayane",
+        "last_name": "Sakura",
+        "team_id": 1,
+        "leader_id": 1,
+        "title": "VA",
+        "description": "Voice Actress"
+    },
+    {
+        "id": 3,
+        "first_name": "Saori",
+        "last_name": "Oonishi",
+        "team_id": 1,
+        "leader_id": 1,
+        "title": "VA",
+        "description": "Voice Actress"
+    },
+    {
+        "id": 4,
+        "first_name": "Test",
+        "last_name": "test1",
+        "team_id": 1,
+        "leader_id": 1,
+        "title": "Nani kore?",
+        "description": "imi wakaranai..."
+    }
+]

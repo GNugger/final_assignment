@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "team_name": "Celestial Being",
+        "leader_id": "1",
+        "description": "the A team"
+        
+    },
+    {
+        "id": 2,
+        "team_name": "AzurLane",
+        "leader_id": "1",
+        "description": "sales team"
+     
+    },
+    {
+        "id": 3,
+        "team_name": "IronBlood",
+        "leader_id": "1",
+        "description": "programming team"
+ 
+    },
+    {
+        "id": 4,
+        "team_name": "Electro",
+        "leader_id": "1",
+        "description": "YAE MIKO SAIKOU!"
+    }
+]
