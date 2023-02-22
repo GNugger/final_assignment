@@ -273,7 +273,7 @@ def serach_in_tables(teamlist = List[Teams], emplist = List[Employee]):
         case _:
             pass
 
-#Able to searach employees by their first name           
+#Able to searach employees by their first name, you can actually search with the ID here as well so i could use this code to just to search the id of employees however the idea of it was to get EVERYONE with the same first name           
 def get_first_name():
     first_name = input("Enter employees first name: ")
     first_name = first_name.capitalize()
