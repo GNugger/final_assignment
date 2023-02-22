@@ -334,9 +334,9 @@ def main():
         case 2:
             # serach by id OK, found IPython libary to prevent printing the function i need
             with io.capture_output():
-                emp = get_emp_details()
                 tm = get_teams_details()
-            serach_in_tables(emp,tm)
+                emp = get_emp_details()
+            serach_in_tables(tm,emp)
             
         case 3:
             remove_employee()
