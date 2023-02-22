@@ -38,7 +38,7 @@ def add_new_row():
         case 1:
             print("Add team")
             team_name = input("Team name:  ")
-            leader_id = input("Leader id: ")
+            leader_id = input("Leader id[number]: ")
             description = input("Team description: ")
             new_team = Teams(team_name=team_name, leader_id=leader_id,description=description)
             res = requests.post(url("/add_team"), json=new_team.dict())
@@ -50,8 +50,8 @@ def add_new_row():
             first_name = input("Employees first name: ")
             last_name = input("Employees last name: ")
             title = input("Employee title: ")
-            leader_id = input("Leader id: ")
-            team_id = input("Team id: ")
+            leader_id = input("Leader id[number]: ")
+            team_id = input("Team id[number]: ")
             description = input("Employee description: ")
             new_employee = Employee(first_name=first_name,last_name=last_name,leader_id=leader_id,team_id=team_id, title=title, description=description)
             res = requests.post(url("/add_employee"), json=new_employee.dict())
@@ -336,7 +336,7 @@ def main():
             with io.capture_output():
                 tm = get_teams_details()
                 emp = get_emp_details()
-            serach_in_tables(tm,emp)
+            serach_in_tables(tm,emp) #was wrong order here
             
         case 3:
             remove_employee()
@@ -350,7 +350,7 @@ def main():
             update_tables(teams,employees)
             
         case 5:
-            select = input("Select 1 for teams details or 2 for employees or 3 for both list: ")
+            select = input("Select [1] for teams details or [2] for employees or [3] for both list: ")
             select = select.strip()
             if not str.isdigit(select):
                 print("__________________________")
